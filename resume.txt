@@ -1,0 +1,151 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{utf8}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{times}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+
+% Custom column types for education table
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\begin{document}
+
+%------------------- HEADER -------------------
+\begin{minipage}[c]{0.15\textwidth}
+    \begin{tikzpicture}
+        \draw[dashed, gray!80, thick] (0,0) rectangle (1.3,1.3);
+        \node at (0.65,0.65) {\tiny\color{gray}AKTU};
+    \end{tikzpicture}
+\end{minipage}%
+\begin{minipage}[c]{0.53\textwidth}
+    {\Large \bfseries Aditya Vishwakarma} \\[2pt]
+    \small
+    Roll No.: 2401390100009 \\
+    Computer Science \& Engineering \\
+    AKTU (Dr. A.P.J. Abdul Kalam Technical University)
+\end{minipage}%
+\begin{minipage}[c]{0.32\textwidth}
+    \raggedleft \small
+    +91-8299443427 \\
+    adityavishwakarma299@gmail.com \\
+    \href{https://github.com}{Github} $|$ \href{https://website.com}{Website} \\
+    \href{https://linkedin.com}{LinkedIn}
+\end{minipage}
+
+\vspace{4pt}
+\hrule
+\vspace{6pt}
+
+%------------------- EDUCATION -------------------
+{\bfseries EDUCATION}
+
+\vspace{4pt}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}p{3cm}|C|>{\centering\arraybackslash}p{3.2cm}|>{\centering\arraybackslash}p{2.8cm}|}
+\hline
+\textbf{Degree/Certificate} & \textbf{Institute/Board} & \textbf{CGPA/Percentage} & \textbf{Year of Passing} \\ \hline
+B.tech (CSE) & AKTU (Dr. A.P.J. Abdul Kalam Technical University) & 7.18 (Current) & 2028 \\ \hline
+12th Standard & Modern Academy Sr. Sec. School & 78\% & 2023 \\ \hline
+10th Standard & Modern Academy Sr. Sec. School & 84\% & 2021 \\ \hline
+\end{tabularx}
+
+\vspace{8pt}
+
+%------------------- EXPERIENCE -------------------
+{\bfseries EXPERIENCE} \\[2pt]
+\textbf{(Fresher)}
+
+\vspace{2pt}
+\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{Full Stack Developer \& Project Lead} & \textbf{Feb 2026 - Present} \\
+    \textit{Pragyaan 2026 (IIT Jammu)} & \textit{Remote / Hybrid} \\
+\end{tabular*}
+\begin{itemize}[label=--, leftmargin=1.2em, itemsep=1pt, topsep=1pt]
+    \item Architected \textbf{Pragyaan 2026} using \textbf{Next.js \& Django}; scaled to \textbf{85+ schools} with \textbf{OAuth2} \& real-time dashboards.
+\end{itemize}
+
+\vspace{2pt}
+\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{Web Developer} & \textbf{Jan 2025 - Present} \\
+    \textit{Personal Projects \& Open Source} & \textit{Remote} \\
+\end{tabular*}
+\begin{itemize}[label=--, leftmargin=1.2em, itemsep=1pt, topsep=1pt]
+    \item Developed \textbf{Real-time Chat App} (WebSockets) and \textbf{Weather App} (Open-Meteo) using \textbf{React \& Tailwind}.
+\end{itemize}
+
+\vspace{6pt}
+
+%------------------- PROJECTS -------------------
+{\bfseries PROJECTS}
+
+\vspace{2pt}
+\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{Pragyaan 2026 (IIT JAMMU)} & \\
+    \textit{Full Stack Developer / Event Platform Architect} & \textit{Live Site} \\
+\end{tabular*}
+\begin{itemize}[label=--, leftmargin=1.2em, itemsep=1pt, topsep=1pt]
+    \item \textbf{Tools \& technologies used:} Next.js, React, Tailwind CSS, Python, Django, SQLite, Google OAuth2.
+    \item Architected a comprehensive event management platform featuring integrated zones for STEM, Science, Arts, and Innovation.
+    \item Developed "Manthan," a specialized portal for educational leaders with abstract submission and agenda management systems.
+    \item Implemented dynamic user dashboards for real-time schedule tracking and live competition scores, scaling to support 85+ schools.
+\end{itemize}
+
+\vspace{2pt}
+\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{Chat With Friend} & \\
+    \textit{Real-time Messaging App with Emoji \& Reactions} & \textit{Github} \\
+\end{tabular*}
+\begin{itemize}[label=--, leftmargin=1.2em, itemsep=1pt, topsep=1pt]
+    \item \textbf{Tools \& technologies used:} Django (Channels, Daphne), React 18, TypeScript, Vite, Tailwind CSS, SQLite.
+    \item Developed a real-time messaging application featuring instant message broadcasting via WebSockets.
+    \item Implemented a modern capsule-style UI with emoji picker support, message reactions, and typing indicators.
+    \item Ensure seamless responsive design for both mobile and desktop users.
+\end{itemize}
+
+\vspace{2pt}
+\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{Modern Weather App} & \\
+    \textit{Responsive Weather Application with Forecasts \& AQI} & \textit{Github} \\
+\end{tabular*}
+\begin{itemize}[label=--, leftmargin=1.2em, itemsep=1pt, topsep=1pt]
+    \item \textbf{Tools \& technologies used:} React 19, Vite, Tailwind CSS 4, Lucide React, Leaflet, Axios, Open-Meteo API.
+    \item Developed a responsive weather application providing real-time data, 10-day forecasts, and AQI monitoring.
+    \item Implemented dynamic backgrounds that change based on current weather conditions and an interactive map for exploring global weather.
+    \item Features include real-time search for any city and comprehensive health recommendations based on AQI.
+\end{itemize}
+
+\vspace{6pt}
+
+%------------------- TECHNICAL SKILLS -------------------
+\hrule
+\vspace{3pt}
+{\bfseries TECHNICAL SKILLS}
+\vspace{3pt}
+\hrule
+\vspace{4pt}
+
+\begin{itemize}[label=$\bullet$, leftmargin=1.2em, itemsep=2pt, topsep=0pt]
+    \item \textbf{Programming:} C/C++*, Python, Java, Javascript, Typescript, SQLite
+    \item \textbf{Tools:} Github*, AI*, Docker, VS Code, Neovim
+    \item \textbf{Libraries/Frameworks:} Django, ReactJS*
+    \item \textbf{Operating Systems:} Windows, Linux, Mac
+\end{itemize}
+
+\vspace{4pt}
+\hrule
+
+\end{document}
