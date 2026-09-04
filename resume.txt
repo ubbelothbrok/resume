@@ -58,9 +58,9 @@
 \begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}p{3cm}|C|>{\centering\arraybackslash}p{3.2cm}|>{\centering\arraybackslash}p{2.8cm}|}
 \hline
 \textbf{Degree/Certificate} & \textbf{Institute/Board} & \textbf{CGPA/Percentage} & \textbf{Year of Passing} \\ \hline
-B.tech (CSE) & AKTU (Dr. A.P.J. Abdul Kalam Technical University) & 7.18 (Current) & 2028 \\ \hline
+B.Tech (CSE) & AKTU (Dr. A.P.J. Abdul Kalam Technical University) & 7.58 (Current) & 2028 \\ \hline
 12th Standard & Modern Academy Sr. Sec. School & 78\% & 2023 \\ \hline
-10th Standard & Modern Academy Sr. Sec. School & 84\% & 2021 \\ \hline
+%10th Standard & Modern Academy Sr. Sec. School & 84\% & 2021 \\ \hline
 \end{tabularx}
 
 \vspace{8pt}
@@ -149,4 +149,3 @@ B.tech (CSE) & AKTU (Dr. A.P.J. Abdul Kalam Technical University) & 7.18 (Curren
 \hrule
 
 \end{document}
-
