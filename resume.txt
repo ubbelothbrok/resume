@@ -1,5 +1,5 @@
 \documentclass[a4paper,10pt]{article}
-\usepackage[utf8]{utf8}
+\usepackage[utf8]{inputenc} % Corrected from \usepackage[utf8]{utf8}
 \usepackage[margin=0.5in]{geometry}
 \usepackage{times}
 \usepackage{tabularx}
@@ -149,4 +149,3 @@ B.tech (CSE) & AKTU (Dr. A.P.J. Abdul Kalam Technical University) & 7.18 (Curren
 \hrule
 
 \end{document}
-
